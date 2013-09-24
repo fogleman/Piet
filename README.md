@@ -1,6 +1,6 @@
-# Procedurally Generating Images in the Style of Piet Mondrian
+## Procedurally Generating Images in the Style of Piet Mondrian
 
-## Introduction
+### Introduction
 
 Piet Mondrian was a Dutch painter. His paintings with orthogonal lines and rectangular splashes of primary colors on white backgrounds are very recognizable.
 
@@ -10,7 +10,7 @@ I wondered what it would take to programmatically generate Mondrian-esque images
 
 ![](http://media.tumblr.com/tumblr_ltovfuaXsx1qlmzfv.png)
 
-## The Algorithm
+### The Algorithm
 
 The algorithm operates on a two-dimensional grid. Initially, the grid is empty (white or 0) with the perimeter filled in (black or 1) as a sentinel border. The black areas indicate where the lines are to be drawn.
 
@@ -52,7 +52,7 @@ Finally, the perimeter border is chopped off and we have the final result.
 
 And that's it - you can have all the procedurally-generated, Mondrian-esque images you want!
 
-## Samples
+### Samples
 
 ![](http://media.tumblr.com/tumblr_ltovpxFvz21qlmzfv.png)
 
